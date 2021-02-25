@@ -1,0 +1,195 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;   
+    margin: 0;
+    padding: 0; 
+}
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+li{
+    list-style: none;
+}
+header{
+    position: fixed;
+    height: 10vh;
+    margin-bottom: 0.5rem;
+    background-color: rgba(99,99,99,0.5);
+    z-index: 2;
+}
+header img {
+    width: 11%;
+    margin: 0.5rem 9.3rem;
+}
+header ul{
+    display: inline-block;
+    position: relative;
+    float: right;
+    right: 6rem;
+}
+header li{
+    display: inline-block;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.3rem;
+    font-weight: bold;
+    
+}
+.intro{
+    height: 55vh;
+    text-align: center;
+    background-color: rgb(247, 205, 209);
+    padding-top: 15vh;
+    margin: 0 !important;
+}
+.intro h1{
+    font-size: 3rem;
+    font-weight: 1200;
+    margin: 0.5rem 20rem;
+    
+}
+.intro span{
+    text-decoration: line-through;
+}
+.s-intro{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.intro .bt-intro a{
+    border: 2px solid #000;
+    margin-right: 0.5rem;
+    padding:1rem ;
+    border-radius: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+
+    
+}
+.bt-intro{
+    margin: 3rem;
+}
+.premium{
+    background-color: lightgreen;
+}
+.terms{
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+.terms a{
+    text-decoration: underline;
+} 
+h2{
+    font-size: 2.5rem;
+    font-weight: bolder; 
+
+}
+.freeplan{
+    text-align: center;
+    background-color: #eeeeee;
+    margin: 0 !important;
+    height: 40vh;
+    padding-top: 2rem;
+}
+.freeplan .s-fp{
+    font-size: 1.2rem;
+    letter-spacing: 0.03rem;
+    margin: 2.5rem;
+
+}
+.freeplan .fp{
+    background-color: lightgreen;
+    margin: 1.2rem;
+    padding: 1.5rem;
+    border-radius: 2.5rem;
+
+}
+.freeplan .terms{
+    margin-top: 2.5rem;
+}
+.prem{
+    height: 50vh;
+    text-align: center;
+    background-color: rgb(160, 196, 210);
+    padding-top: 2rem;
+}
+.prem p{
+    font-size: 1.2rem;
+    letter-spacing: 0.03rem;
+    margin: 3rem;
+}
+ .prem a{
+    background-color: black;
+    margin: 1.2rem;
+    padding: 1.5rem;
+    border-radius: 2.5rem;
+    color: white;
+}
+.features{
+    padding-top: 2rem;
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+}
+.features figure{
+    display: inline-block;
+    width: 19%;
+    margin-bottom: 5rem;
+}
+.features figure img{
+    width: 40%;
+    
+}
+.features a{
+    background-color: lightgreen;
+    margin: 1.2rem;
+    padding: 1.5rem;
+    border-radius: 2.5rem;
+    color: white;
+
+
+}
+.music{
+    padding-top: 2rem;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+.music figure{
+    display: inline-block;
+    width: 15.4%;
+    margin-bottom: 1.1rem;
+    padding: 1.3rem;
+    text-align: center;
+}
+.music figure img{
+    width: 100%;
+    height: 30vh;
+    padding: 0.2rem;
+}
+footer{
+    background-color: black;
+    color: grey;
+    height: 20vh;
+}
+footer ul{
+    display: inline-block;
+    width: 20%;
+    
+}
+footer li{
+    margin:0.2rem
+}
+footer p{
+    display: inline-block;
+    width: 80%;
+    text-align: end;
+
+}
+
+
+
+
